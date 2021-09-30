@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">もずくあわせ</router-link> |
+      <router-link to="/Manual">遊び方</router-link> |
+      <router-link to="/Playarea">ゲームを始める</router-link>
     </div>
     <router-view/>
   </div>
