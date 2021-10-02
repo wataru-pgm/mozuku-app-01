@@ -1,5 +1,5 @@
 <template>
   <div class="manual">
-    <h1>☆遊び方☆</h1>
+    <h1>ゲームの説明</h1>
   </div>
 </template>
