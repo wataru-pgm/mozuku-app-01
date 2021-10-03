@@ -6,7 +6,7 @@
       </v-toolbar-title>
 
         <v-spacer></v-spacer>
-
+     
       <router-link to="/Manual">遊び方</router-link>
     </v-app-bar>
 
