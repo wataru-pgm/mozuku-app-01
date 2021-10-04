@@ -1,12 +1,24 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+  <v-app id="app">
+    <v-app-bar color="brown lighten-4">
+      <v-toolbar-title>
+        <router-link to="/">もずくあわせ</router-link> 
+      </v-toolbar-title>
+
+        <v-spacer></v-spacer>
+
+     
+      <!-- <router-link to="/Manual">遊び方</router-link> -->
+    </v-app-bar>
+
     <router-view/>
-  </div>
+
+    <v-footer color="brown lighten-4" app>
+      2021.mozuku
+    </v-footer>
+  </v-app>
 </template>
+
 
 <style>
 #app {
@@ -15,18 +27,5 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
 }
 </style>
