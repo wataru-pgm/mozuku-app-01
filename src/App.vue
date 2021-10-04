@@ -1,6 +1,6 @@
 <template>
   <v-app id="app">
-    <v-app-bar color="brown lighten-4" fixed>
+    <v-app-bar color="brown lighten-4">
       <v-toolbar-title>
         <router-link to="/">もずくあわせ</router-link> 
       </v-toolbar-title>
@@ -8,9 +8,9 @@
         <v-spacer></v-spacer>
 
      
-      <router-link to="/Manual">遊び方</router-link>
+      <!-- <router-link to="/Manual">遊び方</router-link> -->
     </v-app-bar>
-<h1>Playarea画面</h1>
+
     <router-view/>
 
     <v-footer color="brown lighten-4" app>

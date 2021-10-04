@@ -1,5 +1,30 @@
 <template>
   <v-container fluid class="bg">
+    <h1>もずくあわせ</h1>
+    <v-col></v-col>
+    <v-col></v-col>
+    <v-col></v-col>
+    <v-col></v-col>
+    <v-col></v-col>
+    <v-col></v-col>
+    <v-col></v-col>
+    <v-col></v-col>
+    <v-col></v-col>
+    <v-col></v-col>
+    <v-col></v-col>
+    <v-col></v-col>
+    <v-col></v-col>
+    <v-col></v-col>
+    <v-col></v-col>
+    <v-col></v-col>
+    <v-col></v-col>
+    <v-col></v-col>
+    <v-col></v-col>
+    <v-col></v-col>
+    <v-col></v-col>
+    <v-col></v-col>
+    <v-col></v-col>
+    <v-col></v-col>
     <router-link to="Playarea">ゲームをプレイする</router-link>
   </v-container>
 </template>
@@ -15,5 +40,10 @@
     width: 100%;
     height: 93vh;
     background-attachment: fixed;
+  }
+
+  h1 {
+    font-size: 90px;
+    color:#FFAB40;
   }
 </style>
